@@ -1,7 +1,7 @@
 <?php
 namespace Davmixcool\Request;
 
-use Davmixcool\validator\CoinpaymentsValidator;
+use Davmixcool\Validator\CoinpaymentsValidator;
 
 class CoinpaymentsCurlRequest
 {
