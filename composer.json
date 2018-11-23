@@ -1,0 +1,35 @@
+{
+  "name": "davmixcool/coinpayments",
+  "type": "library",
+  "description": "A PHP wrapper for CoinPayments.net Api.",
+  "keywords": [
+    "CoinPayments",
+    "cryptocurrency",
+    "crypto",
+    "payment processor",
+    "merchant",
+    "paypal",
+    "bitcoin",
+    "ethereum",
+    "php",
+    "api",
+    "currency"
+  ],
+  "homepage": "https://github.com/davmixcool/CoinPayments",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Oti",
+      "email": "davmixcool@gmail.com",
+      "role": "Software Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+        "psr-4": {
+            "Davmixcool\\": "src"
+        }
+  }
+}
