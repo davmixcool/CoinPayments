@@ -20,17 +20,18 @@ A PHP wrapper for CoinPayments.net Api. For account instructions visit: [online 
 
 **Composer**
 
-To install with composer run the following command `composer require davmixcool/coinpayments` and then include the following line in your project where you want to use the wrapper's classes.
+Run the following command to include this package via Composer
 
-```php
-require_once('your_project_path_to/vendor/autoload.php');
-``` 
+```shell
+composer require davmixcool/coinpayments
+```
+
 
 ### Usage
 The simplest example is retrieving basic account information. 
 
 ```php
-use Davmixcool\CoinpaymentApi;
+use Davmixcool\CoinPayments;
 
 /** Scenario: Retrieve basic user account information.**/
 // Either include the sample keys.php file (once populated) or manually set $public_key and $private_key variables
